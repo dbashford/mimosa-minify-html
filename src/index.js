@@ -28,7 +28,7 @@ var _execute = function ( mimosaConfig, options, next ) {
 };
 
 var registration = function ( mimosaConfig, register ) {
-  if ( mimosaConfig.isBuild ) {
+  if ( mimosaConfig.isMinify ) {
     register( [ "add", "update", "buildFile"], "afterCompile", _execute, [ "html", "htm" ] );
   }
 };

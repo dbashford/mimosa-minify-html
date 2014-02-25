@@ -13,7 +13,7 @@ Add `'minify-html'` to your list of modules.  That's all!  Mimosa will install t
 
 ## Functionality
 
-During `mimosa build` this module will optimize `.html` files.
+During `mimosa build` and `mimosa watch`, when the `--minify` flag is enabled, this module will optimize `.html` files.
 
 ## Default Config
 
