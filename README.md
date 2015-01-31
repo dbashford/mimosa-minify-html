@@ -25,24 +25,24 @@ minifyHtml: {
 
 * `options` an object, pass-through options to the [html-minifier](https://github.com/kangax/html-minifier/) library.
 
-Option Reference:
+Check the [Option Reference](https://github.com/kangax/html-minifier#options-quick-reference) on the html-minify website for details on the following options:
 
-* [`collapseWhitespace`](https://github.com/kangax/html-minifier/blob/gh-pages/tests/minifier.js#L80)
-* [`useShortDoctype`](https://github.com/kangax/html-minifier/blob/gh-pages/tests/minifier.js#L99)
-* [`removeComments`](https://github.com/kangax/html-minifier/blob/gh-pages/tests/minifier.js#L110)
-* [`removeCommentsFromCDATA`](https://github.com/kangax/html-minifier/blob/gh-pages/tests/minifier.js#L185)
-* [`removeCDATASectionsFromCDATA`](https://github.com/kangax/html-minifier/blob/gh-pages/tests/minifier.js#L212)
-* [`removeEmptyAttributes`](https://github.com/kangax/html-minifier/blob/gh-pages/tests/minifier.js#L235)
-* [`cleanAttributes`](https://github.com/kangax/html-minifier/blob/gh-pages/tests/minifier.js#L253)
-* [`removeRedundantAttributes`](https://github.com/kangax/html-minifier/blob/gh-pages/tests/minifier.js#L354)
-* [`removeAttributeQuotes`](https://github.com/kangax/html-minifier/blob/gh-pages/tests/minifier.js#L478)
-* [`removeScriptTypeAttributes`](https://github.com/kangax/html-minifier/blob/gh-pages/tests/minifier.js#L428)
-* [`removeStyleLinkTypeAttributes`](https://github.com/kangax/html-minifier/blob/gh-pages/tests/minifier.js#L451)
-* [`removeEmptyElements`](https://github.com/kangax/html-minifier/blob/gh-pages/tests/minifier.js#L566)
-* [`collapseBooleanAttributes`](https://github.com/kangax/html-minifier/blob/gh-pages/tests/minifier.js#L603)
-* [`keepClosingSlash`](https://github.com/kangax/html-minifier/blob/gh-pages/tests/minifier.js#L623)
-* [`removeOptionalTags`](https://github.com/kangax/html-minifier/blob/gh-pages/tests/minifier.js#L627)
-* [`html5`](https://github.com/kangax/html-minifier/blob/gh-pages/tests/minifier.js#L686)
-* [`removeIgnored`](https://github.com/kangax/html-minifier/blob/gh-pages/tests/minifier.js#L707)
-* [`caseSensitive`](https://github.com/kangax/html-minifier/blob/gh-pages/tests/minifier.js#737)
+* `collapseWhitespace`
+* `useShortDoctype`
+* `removeComments`
+* `removeCommentsFromCDATA`
+* `removeCDATASectionsFromCDATA`
+* `removeEmptyAttributes`
+* `cleanAttributes`
+* `removeRedundantAttributes`
+* `removeAttributeQuotes`
+* `removeScriptTypeAttributes`
+* `removeStyleLinkTypeAttributes`
+* `removeEmptyElements`
+* `collapseBooleanAttributes`
+* `keepClosingSlash`
+* `removeOptionalTags`
+* `html5`
+* `removeIgnored`
+* `caseSensitive`
 
